@@ -1,0 +1,8 @@
+{
+  "todo": "Todo",
+  "uncompleted": "Uncompleted",
+  "completed": "Completed",
+  "save": "Save",
+  "titleHint": "Title",
+  "contentHint": "Content"
+}

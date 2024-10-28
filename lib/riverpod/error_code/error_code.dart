@@ -1,0 +1,4 @@
+enum ErrorCode {
+  empty,
+  none,
+}

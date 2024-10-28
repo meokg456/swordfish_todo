@@ -1,0 +1,9 @@
+{
+  "todo": "Todo",
+  "uncompleted": "Chưa hoàn thành",
+  "completed": "Đã hoàn thành",
+  "save": "Lưu",
+  "emptyTitleErrorMessage" : "Tiêu đề không được để trống",
+  "titleHint": "Tiêu đề",
+  "contentHint": "Nội dung"
+}
