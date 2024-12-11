@@ -8,11 +8,13 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final db = await initSqlite();
 
-  runApp(ProviderScope(
-    overrides: [
-      sqliteDatabaseProvider.overrideWithValue(db),
-    ],
-    observers: [LoggingObserver()],
-    child: const TodoApp(),
-  ));
+  runApp(
+    ProviderScope(
+      overrides: [
+        sqliteDatabaseProvider.overrideWithValue(db),
+      ],
+      observers: [LoggingObserver()],
+      child: const TodoApp(),
+    ),
+  );
 }
